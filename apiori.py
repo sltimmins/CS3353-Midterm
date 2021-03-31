@@ -62,6 +62,6 @@ def aprioriFromFile(fname, minSup, minConf):
     return globalFreqItemSet, rules
 
 if __name__ == "__main__":
-    fname = "input2.csv"
+    fname = "input1.csv"
     freqItemSet, rules = aprioriFromFile(fname, 0.1, 0.1)
     print(rules)
