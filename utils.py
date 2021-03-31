@@ -75,7 +75,7 @@ def pruning(candidateSet, prevFreqSet, length):
                 break
     return tempCandidateSet
 
-
+# %%
 def associationRule(freqItemSet, itemSetWithSup, minConf):
     rules = []
     for k, itemSet in freqItemSet.items():
@@ -97,3 +97,4 @@ def getItemSetFromList(itemSetList):
             tempItemSet.add(frozenset([item]))
 
     return tempItemSet
+# %%
